@@ -19,15 +19,15 @@ _Thumbnail box image credits, designed by [Freepik](https://www.flaticon.com/aut
 Walktrhought : 
 #### Etape 1 : Scan nmap 
 nmap -sV -A 10.81.137.160               
-![alt](/assets/img/colddbox-easy/scan_nmap.png)
+![alt](/assets/img/Colddbox/scan_nmap.png)
 Can see a web site with wordpress 4.1.31
 Try to go scan web
-![alt](/assets/img/colddbox-easy/scan_web.png)
+![alt](/assets/img/Colddbox/scan_web.png)
 Found Hidden page
-![alt](/assets/img/colddbox-easy/hidden_page.png)
+![alt](/assets/img/Colddbox/hidden_page.png)
 Go to Wpscan :
 ``wpscan --url 10.81.137.160 -P /usr/share/wordlists/rockyou.txt
-![alt](/assets/img/colddbox-easy/wp_scan.png)
+![alt](/assets/img/Colddbox/wp_scan.png)
 ```
 Username and password founded : 
 C0ldd / 9876543210
@@ -47,7 +47,7 @@ Now go on your browser and connect to :
 
 YOU GOT SHELL !
 
-![alt](/assets/img/colddbox-easy/reverse_shell.png)
+![alt](/assets/img/Colddbox/reverse_shell.png)
 Upgrade the terminal :
 ```bash
 $ python3 -c 'import pty;pty.spawn("/bin/bash")'
@@ -56,16 +56,16 @@ www-data@ColddBox-Easy:/$
 We can't cat the user.txt file with www-data user
 So we try to search password in wp-config (if it's existed)
 
-![alt](/assets/img/colddbox-easy/upgrade_shell.png)
+![alt](/assets/img/Colddbox/upgrade_shell.png)
 And cat the user.txt file : 
 RmVsaWNpZGFkZXMsIHByaW1lciBuaXZlbCBjb25zZWd1aWRvIQ==
 
 #### **root.txt**
 To get access root, do escalation privilege : 
-![alt](/assets/img/colddbox-easy/find_vuln.png)
+![alt](/assets/img/Colddbox/find_vuln.png)
 Found a GTFObin with vim : https://gtfobins.github.io/gtfobins/vim/
-![alt](/assets/img/colddbox-easy/gtfo.png)
+![alt](/assets/img/Colddbox/gtfo.png)
 And ROOT SHELL SPAWN
-![alt](/assets/img/colddbox-easy/escalation.png)
-![alt](/assets/img/colddbox-easy/flag_root.png)
+![alt](/assets/img/Colddbox/escalation.png)
+![alt](/assets/img/Colddbox/flag_root.png)
 Root Flag : wqFGZWxpY2lkYWRlcywgbcOhcXVpbmEgY29tcGxldGFkYSE=
