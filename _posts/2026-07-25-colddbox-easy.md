@@ -1,6 +1,6 @@
 ---
 title: "ColddBox: Easy — RCE WordPress via l'éditeur de thème + privesc GTFOBins"
-date: 2026-08-16 10:00:00 +0200
+date: 2026-07-25 17:41:00 +0200
 categories: [WriteUp, TryHackMe]
 tags: [wordpress, wpscan, gtfobins, privilege-escalation]
 ---
