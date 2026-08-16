@@ -3,10 +3,6 @@
 - type: github
   icon: "fab fa-github"
 
-- type: github
-  icon: "fab fa-github"
-  url: "https://github.com/TON_USERNAME"
-
 - type: hackthebox
   icon: "fas fa-cube"
   url: "https://app.hackthebox.com/users/1368058"
