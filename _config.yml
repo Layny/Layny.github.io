@@ -26,10 +26,10 @@ description: >- # used by seo meta and the atom feed
 url: "https://d3x.github.io"
 
 github:
-  username: @Layny # change to your GitHub username
+  username: Layny # change to your GitHub username
 
 TryHackMe:
-  username: @Layny # change to your GitHub username
+  username: Layny # change to your GitHub username
 
 HackTheBox:
   Link: https://app.hackthebox.com/users/1368058 # change to your GitHub username
