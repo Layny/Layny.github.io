@@ -1,12 +1,12 @@
 ---
 icon: fas fa-code
 order: 5
-title: Profil technique
+title: CV
 ---
 
 ## Certifications
 
-- **eJPT** — eLearnSecurity Junior Penetration Tester
+- **eJPT** — eLearnSecurity Junior Penetration Tester *(Juillet 2026)*
 - **CPTS** — Certified Penetration Testing Specialist *(en préparation)*
 
 ## Compétences
