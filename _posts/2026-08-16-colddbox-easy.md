@@ -19,7 +19,7 @@ _Thumbnail box image credits, designed by [Freepik](https://www.flaticon.com/aut
 Walktrhought : 
 #### Etape 1 : Scan nmap 
 nmap -sV -A 10.81.137.160               
-![alt](/assets/img/Colddbox/scan_nmap.png)
+![alt](/assets/img/Colddbox/scan_map.png)
 Can see a web site with wordpress 4.1.31
 Try to go scan web
 ![alt](/assets/img/Colddbox/scan_web.png)
