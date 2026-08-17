@@ -1,29 +1,31 @@
 ---
-title: "Retex eJPT : Mon avis honnête, l'examen et la réalité du terrain"
+title: "Retour sur l'eJPT : Mon avis honnête, l'examen et la réalité du terrain"
 date: 2026-08-16 18:16:32 +0200
 categories: [Certifications, eJPT]
 tags: [retex, pentest, osint, certification]
 ---
 
-Décrocher la certification eJPT (eLearnSecurity Junior Penetration Tester) est souvent considéré comme le premier véritable rite de passage pour quiconque souhaite mettre un pied dans la cybersécurité offensive. Après avoir validé l'examen et pris un peu de recul sur le programme, il est temps de faire un bilan complet et sans filtre. 
+Obtenir la certification eJPT est souvent considéré comme le PREMIER véritable passage pour quiconque souhaite mettre un pied dans la cybersécurité offensive. Après avoir validé l'examen et pris un peu de recul, il est temps de faire un bilan complet et sans filtre. 
 
-Que vaut vraiment cette certification aujourd'hui ? Voici un retour d'expérience qui croise ma propre aventure avec les réalités remontées par la communauté.
+Certains jugent qu'il n'est pas utile de faire un retour sur une certification "débutante", mais personnellement je pense que ça peut répondre à des questions.
 
-### 🔍 Une excellente base méthodologique
+### Une excellente base méthodologique
 
-Le plus grand point fort de cette certification réside dans l'apprentissage de la méthode. L'eJPT fait un excellent travail pour structurer la phase de reconnaissance (passive et active), tout en insistant lourdement sur le cadre légal et les limites à ne pas franchir lors d'un audit.
+Le point fort de cette certification réside dans l'apprentissage de la méthode. L'eJPT fait un excellent travail pour structurer la phase de reconnaissance (passive et active), tout en insistant sur le cadre légal et les limites à ne pas franchir lors d'un audit.
 
-La cartographie de la cible est passée au peigne fin (domaines, IPs, hébergement, services). On y apprend à manipuler une vraie boîte à outils d'investigation :
+La cartographie de la cible est une étape importante (domaines, IPs, hébergement, services). On y apprend à manipuler certains outils dans différents sujets :
+
 *   **Reconnaissance Passive & OSINT :** Utilisation des Google Dorks, requêtes LinkedIn, fouille des `robots.txt` et `sitemap.xml`.
 *   **Profilage Web :** Utilisation d'extensions comme BuiltWith ou Wappalyzer pour décortiquer l'infrastructure et les plugins d'un site.
 *   **Analyse DNS :** Sublist3r, dnsdumpster, `dnsrecon`.
-*   **Scan Actif :** La maîtrise indispensable de Nmap, l'utilisation de `httrack`, ou encore `wafw00f` pour détecter la présence de pare-feux applicatifs.
+*   **Reconnaissance Active :** La maîtrise indispensable de Nmap, l'utilisation de `httrack`, ou encore `wafw00f` pour la détection de pare-feux applicatifs.
 
-### 🛠️ L'arsenal d'exploitation classique
+### L'arsenal d'exploitation classique
 
-La phase d'exploitation du cours remplit bien son contrat pour un profil junior. Elle permet de démystifier les environnements Linux et Windows, et surtout d'apprendre à dompter le framework Metasploit (`msfconsole`). 
+La phase d'exploitation du cours est bien approfondi pour un profil junior. Elle permet d'éclaircir les environnements Linux et Windows, et surtout d'apprendre à utiliser le framework Metasploit (`msfconsole`). 
 
-Le programme balaie les fondamentaux :
+Les vidéos et exercices abordent certains fondamentaux comme :
+*   L'exploitation du système Linux ou Windows pour l'adaptation de la cible
 *   L'identification et l'exploitation des failles web les plus courantes (XSS, SQLi).
 *   La création de reverse shells et l'utilisation de payloads.
 *   Les mécaniques d'élévation de privilèges (PrivEsc), notamment avec l'utilisation indispensable des GTFOBins sous Linux.
@@ -46,8 +48,8 @@ C'est ici que l'honnêteté s'impose. Si la certification est excellente pour po
 
 ### Conclusion
 
-L'eJPT reste une excellente certification d'introduction. C'est un tremplin parfait pour débuter, assimiler la méthodologie d'audit et se familiariser avec la ligne de commande offensive. Elle donne confiance et prouve que l'on sait mener une attaque basique de A à Z.
+L'eJPT reste une excellente certification d'introduction. C'est un tremplin parfait pour débuter, assimiler la méthodologie d'audit et se familiariser avec le côté offensive. Elle donne confiance et prouve que l'on sait mener une attaque basique de A à Z.
 
-Cependant, il ne faut pas s'y tromper : elle ne suffit plus à elle seule pour être pleinement opérationnel sur le marché du travail d'aujourd'hui. Pour affronter de vraies infrastructures, il est impératif d'aller beaucoup plus loin en se formant en continu. 
+Parcontre, il ne faut pas s'y tromper. Beaucoup pense qu'elle suffit pour être pleinement opérationnel sur le marché du travail d'aujourd'hui. Pour affronter de vraies infrastructures, il est nécessaire d'aller beaucoup plus loin en se formant en continu. 
 
 On peut se tourner vers une future certification comme la **CPTS** de Hack The Box pour approfondir les points manquants et agrandir notre arbre de compétences.
