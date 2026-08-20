@@ -8,11 +8,19 @@ image:
   alt: "Logo Syncthing"
 ---
 
-
 ## Contexte et objectif
 
 Quand on travaille sur plusieurs machines et environnements, on perd souvent un temps précieux à copier-coller manuellement les fichiers pour tout garder à jour. L'objectif de ce projet est d'automatiser la synchronisation des espaces de travail actifs (documents du quotidien, scripts, notes sur Obsidian) pour avoir systématiquement les mêmes fichiers sous la main, peu importe la machine. 
 Je voulais une solution transparente, sans avoir à transférer des disques virtuels entiers ou dépendre du cloud public.
+
+## Qu'est-ce que Syncthing ?
+
+Pour résumer rapidement, **Syncthing** est un programme open-source de synchronisation de fichiers en pair-à-pair (P2P).
+
+**Caractéristiques principales :**
+* **Sans cloud tiers :** Vos fichiers ne sont stockés sur aucun serveur inconnu, vous gardez le contrôle total de vos données.
+* **Sécurité :** Les transferts sont entièrement chiffrés (TLS) et chaque appareil doit être autorisé manuellement.
+* **Multiplateforme :** Compatible avec Windows, Linux, macOS.
 
 ## Pourquoi Syncthing et pas un simple partage réseau (NAS) ?
 
