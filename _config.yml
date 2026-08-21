@@ -180,9 +180,6 @@ kramdown:
       start_line: 1
 
 collections:
-  posts:
-    output: true
-    permalink: /posts/:title/
   tabs:
     output: true
     sort_by: order
@@ -240,11 +237,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-plugins:
-  - jekyll-polyglot
-
-languages: ["fr", "en"]
-default_lang: "fr"
-exclude_from_localization: ["assets", "css", "fonts", "javascript"]
-parallel_localization: true

@@ -6,9 +6,9 @@ tags: [syncthing, raspberry, automatisation, backup]
 image:
   path: /assets/img/Syncthing/Syncthing_Logo.svg.webp
   alt: "Logo Syncthing"
-lang: en
 ---
 
+[Version Française](/posts/2026-08-20-Syncthing-fr.md/)
 
 ## Context and objective
 
