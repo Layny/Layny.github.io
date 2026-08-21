@@ -6,9 +6,10 @@ tags: [syncthing, raspberry, automatisation, backup]
 image:
   path: /assets/img/Syncthing/Syncthing_Logo.svg.webp
   alt: "Logo Syncthing"
+permalink: /posts/syncthing-en/
 ---
 
-[Version Française](/posts/Synchronisation-multi-machines-avec-Syncthing/)
+[Version Française](/posts/syncthing-fr/)
 
 ## Context and objective
 
