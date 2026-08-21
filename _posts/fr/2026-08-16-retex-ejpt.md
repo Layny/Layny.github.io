@@ -3,6 +3,7 @@ title: "Retour sur l'eJPT : Mon avis honnête, l'examen et la réalité du terra
 date: 2026-08-16 18:16:32 +0200
 categories: [Certifications, eJPT]
 tags: [retex, pentest, osint, certification]
+lang: fr
 ---
 
 Obtenir la certification eJPT est souvent considéré comme le PREMIER véritable passage pour quiconque souhaite mettre un pied dans la cybersécurité offensive. Après avoir validé l'examen et pris un peu de recul, il est temps de faire un bilan complet et sans filtre. 
