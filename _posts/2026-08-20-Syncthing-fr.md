@@ -11,6 +11,8 @@ permalink: /posts/syncthing-fr/
 
 > 💡 Cet article est entièrement en français, la version anglaise se trouve [ici](/posts/syncthing-en/).
 
+<!-- more -->
+
 ## Contexte et objectif
 
 Quand on travaille sur plusieurs machines et environnements, on perd souvent un temps précieux à copier-coller manuellement les fichiers pour tout garder à jour. L'objectif de ce projet est d'automatiser la synchronisation des espaces de travail actifs (documents du quotidien, scripts, notes sur Obsidian) pour avoir systématiquement les mêmes fichiers sous la main, peu importe la machine. 

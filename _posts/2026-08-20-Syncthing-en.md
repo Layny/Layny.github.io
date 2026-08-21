@@ -11,6 +11,8 @@ permalink: /posts/syncthing-en/
 
 > 💡 This article is entirely in English, the French version can be found [here](/posts/syncthing-fr/).
 
+<!-- more -->
+
 ## Context and objective
 
 When working across multiple machines and environments, a lot of time gets wasted manually copying files back and forth to keep everything up to date. The goal of this project was to automate synchronization of active workspaces (daily documents, scripts, Obsidian notes) so the same files are available regardless of the machine. I wanted a transparent solution, without transferring entire virtual disks or relying on public cloud.
