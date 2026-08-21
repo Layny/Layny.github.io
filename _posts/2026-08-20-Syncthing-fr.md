@@ -9,7 +9,7 @@ image:
 permalink: /posts/syncthing-fr/
 ---
 
-[Read in English](/posts/syncthing-en/)
+> 💡 Cet article est entièrement en français, la version anglaise se trouve [ici](/posts/syncthing-en/).
 
 ## Contexte et objectif
 
