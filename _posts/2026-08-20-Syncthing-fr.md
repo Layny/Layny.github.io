@@ -8,7 +8,7 @@ image:
   alt: "Logo Syncthing"
 ---
 
-[Read in English](/posts/2026-08-20-Syncthing-en.md/)
+[Read in English](/posts/Multi-Machine-Sync-with-Syncthing/)
 
 ## Contexte et objectif
 

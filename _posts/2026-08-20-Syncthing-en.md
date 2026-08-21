@@ -8,7 +8,7 @@ image:
   alt: "Logo Syncthing"
 ---
 
-[Version Française](/posts/2026-08-20-Syncthing-fr.md/)
+[Version Française](/posts/Synchronisation-multi-machines-avec-Syncthing/)
 
 ## Context and objective
 
